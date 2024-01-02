@@ -7,9 +7,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 @ControllerAdvice
@@ -19,7 +16,8 @@ public class ExceptionHandlers extends ResponseEntityExceptionHandler {
     @ResponseBody
     public final ResponseEntity<ErrorResponse> handleItemNotFoundException
             (final RecordNotFoundException recordNotFoundException){
-        ErrorResponse errorResponse = new ErrorResponse("404", recordNotFoundException.getMessage(), new Date());
+        ErrorResponse errorResponse = new ErrorResponse("404",
+                recordNotFoundException.getMessage(), new Date());
         return new ResponseEntity<>(errorResponse, HttpStatus.NOT_FOUND);
     }
 }

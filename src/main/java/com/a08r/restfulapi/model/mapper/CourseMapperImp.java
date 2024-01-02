@@ -4,6 +4,7 @@ import com.a08r.restfulapi.model.dto.AddCourseDto;
 import com.a08r.restfulapi.model.dto.CourseDto;
 import com.a08r.restfulapi.model.course.Course;
 
+
 public class CourseMapperImp implements ICourseMapper{
     @Override
     public Course addCourseDtoToCourse(AddCourseDto addCourseDto) {
@@ -20,4 +21,7 @@ public class CourseMapperImp implements ICourseMapper{
         CourseDto  courseDto = new CourseDto(course);
         return courseDto;
     }
+
+
+
 }

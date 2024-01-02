@@ -17,6 +17,7 @@ import java.math.BigDecimal;
 @Setter
 @Getter
 @ToString
+
 public class Course extends BaseEntity {
     @NotBlank(message = "Title is mandatory")
     @Column(name = "title")
@@ -28,37 +29,5 @@ public class Course extends BaseEntity {
     @Column(name = "price")
     private BigDecimal price;
 
-//    public Course() {
-//    }
-//
-//    public Course(String title, String description, BigDecimal price) {
-//        this.title = title;
-//        this.description = description;
-//        this.price = price;
-//    }
-//
-//    public String getTitle() {
-//        return title;
-//    }
-//
-//    public void setTitle(String title) {
-//        this.title = title;
-//    }
-//
-//    public String getDescription() {
-//        return description;
-//    }
-//
-//    public void setDescription(String description) {
-//        this.description = description;
-//    }
-//
-//    public BigDecimal getPrice() {
-//        return price;
-//    }
-//
-//    public void setPrice(BigDecimal price) {
-//        this.price = price;
-//    }
 
 }
