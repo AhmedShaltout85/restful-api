@@ -1,11 +1,11 @@
 package com.a08r.restfulapi.service;
 
-import com.a08r.restfulapi.model.dto.AddCourseDto;
-import com.a08r.restfulapi.model.dto.CourseDto;
+import com.a08r.restfulapi.modle.dto.AddCourseDto;
+import com.a08r.restfulapi.modle.dto.CourseDto;
 import com.a08r.restfulapi.errors.RecordNotFoundException;
-import com.a08r.restfulapi.model.mapper.CourseMapperImp;
-import com.a08r.restfulapi.model.mapper.ICourseMapper;
-import com.a08r.restfulapi.model.course.Course;
+import com.a08r.restfulapi.modle.mapper.CourseMapperImp;
+import com.a08r.restfulapi.modle.mapper.ICourseMapper;
+import com.a08r.restfulapi.modle.course.Course;
 import com.a08r.restfulapi.repository.ICourseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

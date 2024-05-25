@@ -1,4 +1,4 @@
-package com.a08r.restfulapi.model.course;
+package com.a08r.restfulapi.modle.course;
 
 import com.a08r.restfulapi.model.BaseEntity;
 import jakarta.persistence.Column;

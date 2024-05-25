@@ -1,7 +1,7 @@
-package com.a08r.restfulapi.model.dto;
+package com.a08r.restfulapi.modle.dto;
 
 
-import com.a08r.restfulapi.model.course.Course;
+import com.a08r.restfulapi.modle.course.Course;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

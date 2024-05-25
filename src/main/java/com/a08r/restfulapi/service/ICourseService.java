@@ -1,7 +1,7 @@
 package com.a08r.restfulapi.service;
 
-import com.a08r.restfulapi.model.dto.AddCourseDto;
-import com.a08r.restfulapi.model.dto.CourseDto;
+import com.a08r.restfulapi.modle.dto.AddCourseDto;
+import com.a08r.restfulapi.modle.dto.CourseDto;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

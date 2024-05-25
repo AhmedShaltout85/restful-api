@@ -1,6 +1,6 @@
 package com.a08r.restfulapi.controller;
-import com.a08r.restfulapi.model.dto.AddCourseDto;
-import com.a08r.restfulapi.model.dto.CourseDto;
+import com.a08r.restfulapi.modle.dto.AddCourseDto;
+import com.a08r.restfulapi.modle.dto.CourseDto;
 import com.a08r.restfulapi.service.ICourseService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

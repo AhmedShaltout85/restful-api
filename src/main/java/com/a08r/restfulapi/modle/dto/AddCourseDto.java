@@ -1,4 +1,4 @@
-package com.a08r.restfulapi.model.dto;
+package com.a08r.restfulapi.modle.dto;
 
 
 

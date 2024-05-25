@@ -1,8 +1,8 @@
-package com.a08r.restfulapi.model.mapper;
+package com.a08r.restfulapi.modle.mapper;
 
-import com.a08r.restfulapi.model.dto.AddCourseDto;
-import com.a08r.restfulapi.model.dto.CourseDto;
-import com.a08r.restfulapi.model.course.Course;
+import com.a08r.restfulapi.modle.dto.AddCourseDto;
+import com.a08r.restfulapi.modle.dto.CourseDto;
+import com.a08r.restfulapi.modle.course.Course;
 
 
 public class CourseMapperImp implements ICourseMapper{
@@ -18,8 +18,7 @@ public class CourseMapperImp implements ICourseMapper{
 
     @Override
     public CourseDto courseToCourseDto(Course course) {
-        CourseDto  courseDto = new CourseDto(course);
-        return courseDto;
+        return new CourseDto(course);
     }
 
 
